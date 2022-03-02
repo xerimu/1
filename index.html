@@ -7,13 +7,11 @@
 	<style type="text/css">
 		h1{border: 1px solid black;}
 		h2{font-size: 32pt; color: slateblue; 
-			border: 5px solid black;
 			margin: 50px; padding: 50px;}
 		p{margin: 50px; padding: 50px; background: white;}
-		section{background: greenyellow;
-				width: 500px; 
-				margin-top: 50px;
-				margin: auto;}
+		section{background: greenyellow; margin-top: 50px;} 
+		.contents{width: 1000px; margin: auto; background: whitesmoke;}
+		div{background: blueviolet;}
 		img{width: 100px; margin: 50px;}
 	</style>
 </head>
@@ -26,16 +24,14 @@
 	6. div는  대표적인 박스다. 
 	캐시메모리때문에 리프레쉬 안되면 쉬프트 누르고 리프레쉬
 	7. 영어 소문자로만 파일이름, 코드를 작성하는 것이 좋다
-	8. 이미지와 index파일은 같은 폴더 안에 있어야 나온다.-->
+	8. 이미지와 index파일은 같은 폴더 안에 있어야 나온다.
+	9. 파일탐색기 > 보기에서 확장명 체크! -->
 <body>
 	<section>
-		<h1>큰제목</h1>
-		<h2>중제목</h2>
-		<h3>소제목</h3>
-		<p>나도 모르겠다~</p>
-		<p>이게맞나</p>
-		<p>모르겠다</p>
-		<div><img src="life.jpg"></div>
+		<div class="contents">
+			<h2>섹션에 배경넣기</h2>
+			컨테이너 2개를 써야 바탕색을 섹션마다 끝까지 지정할 수 있습니다.
+		</div>
 	</section>
 </body>
 </html>
